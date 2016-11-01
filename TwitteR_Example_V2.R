@@ -50,3 +50,5 @@ tweets.text <- laply(tweets, function(t) t$getText())
 Twitter_Example_data_v2=head(tweets.text,5)
 
 write.table(Twitter_Example_data_v2,file="Twitter_Example_data-V2.txt")
+
+#test change
